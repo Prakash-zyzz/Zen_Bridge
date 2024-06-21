@@ -27,7 +27,7 @@ const Slider = () => {
     justifyContent: 'center',
     alignItems: 'center',
     overflow: 'hidden',
-    
+    paddingTop: '20px',
    
   };
 
