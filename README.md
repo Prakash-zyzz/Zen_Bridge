@@ -1,3 +1,5 @@
+# If Someone Clone this code I have coded for 80% Zoom in chrome browser aswell as in all browser so please Zoom Out and View 80% and view the site.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
