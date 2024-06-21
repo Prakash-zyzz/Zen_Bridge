@@ -1,4 +1,6 @@
-# If Someone Clone this code I have coded for 80% Zoom in chrome browser aswell as in all browser so please Zoom Out to 80% and view the site.
+# Note!!!
+
+If Someone Clone this code I have coded for 80% Zoom in chrome browser aswell as in all browser so please Zoom Out to 80% and view the site.
 
 # Getting Started with Create React App
 
