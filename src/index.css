@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* :root {
+    --primary-dark:#E30069;
+    --primary-light:#F180B4;
+} */
+/* Keyframes for the infinite slider */
+@keyframes infinite-scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 8)); /* Adjust based on total width of visible content */
+    }
+  }
+
+  @media (max-width: 768px) {
+    /* Styles for screens smaller than 768px wide */
+    .container {
+      width: 80%; /* Adjust as needed */
+      /* padding: 10px; Example of adjusting padding */
+    }
+  }
+  
+  /* Infinite slider animation */
+  
+
+@layer base{
+    body{
+        @apply font-[poppins]
+    }
+    li{
+        @apply p-4 
+    }
+   h1{
+    @apply text-3xl md:text-4xl 
+   }
+   h2{
+    @apply text-2xl 
+   }
+   h3{
+    @apply text-xl 
+   }
+   button{
+    @apply  rounded-lg
+   }
+   .icon{
+         @apply text-2xl cursor-pointer
+   }
+   
 }
